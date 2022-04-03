@@ -1,0 +1,36 @@
+.banner__image{
+    width: 100%;
+    height: calc(100% - 72px);
+    background: url(../assets/img/ ) / no-repeat/ cover;
+
+}
+
+
+.banner__titulo{
+    width: 100%;
+    color: #fdfdfd;
+    font-family: "Pacifico", cursive;
+    
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.175);
+    transform: translate(-50%, -50%);
+}
+@media  (min-width:0) {
+    .banner__image{
+        height: calc(100% - 51px);
+    }  
+    .banner__titulo{
+        font-size: 3rem;
+    }  
+    }
+    @media  (min-width:768px) {
+    .banner__image{
+        height: calc(100% - 72px)
+    }   
+    .banner__titulo{
+        font-size: 5.0625rem;
+    } 
+    }
